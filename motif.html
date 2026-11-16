@@ -1,0 +1,53 @@
+﻿<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071426">
+  <title>Detail Motif — Rona Rimba</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="motif-detail.css">
+</head>
+<body class="detail-page">
+  <header class="detail-header">
+    <a class="back-link" href="index.html#produk"><span aria-hidden="true">←</span> Kembali ke koleksi</a>
+  </header>
+  <a class="floating-logo" href="index.html#beranda" aria-label="Kembali ke beranda">
+    <img src="images/logo.png" alt="" onerror="this.hidden=true">
+    <span class="logo-fallback">R</span>
+  </a>
+
+  <main class="motif-detail" id="motifDetail">
+    <section class="detail-copy" aria-labelledby="motifTitle">
+      <p class="eyebrow">Cerita di balik motif</p>
+      <h1 id="motifTitle">Motif Ecoprint</h1>
+      <p class="detail-plant" id="motifPlant"></p>
+      <div class="detail-image-layout">
+        <span class="vertical-label">MOTIF</span>
+        <div class="detail-image-wrap"><img id="motifImage" src="" alt="Foto totebag ecoprint"></div>
+      </div>
+      <p class="detail-description" id="motifDescription"></p>
+      <p class="detail-facts" id="motifFacts"></p>
+    </section>
+
+    <section class="detail-video-section" aria-label="Video proses pembuatan">
+      <div class="video-frame">
+        <video id="processVideo" autoplay muted loop playsinline preload="metadata" poster="images/video-poster.jpg">
+          Browser Anda belum mendukung pemutaran video.
+        </video>
+        <div class="video-overlay">
+          <button class="video-toggle" id="videoToggle" type="button" aria-label="Jeda video">Ⅱ</button>
+          <div class="video-caption">
+            <span class="video-kicker">PROSES ECOPRINT</span>
+            <h2>Video proses<br>pembuatan (singkat)</h2>
+            <p id="videoMessage">Video diputar berulang secara otomatis.</p>
+          </div>
+        </div>
+        <span class="video-loop-label"><span></span> VIDEO PROSES</span>
+      </div>
+    </section>
+  </main>
+
+  <script src="motif-detail.js"></script>
+</body>
+</html>

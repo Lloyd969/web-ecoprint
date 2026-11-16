@@ -1,0 +1,6 @@
+﻿File yang diperlukan di folder geografi:
+- index.html, style.css, script.js
+- motif.html, motif-detail.css, motif-detail.js
+- images/ untuk logo dan foto produk
+- videos/ untuk video proses ecoprint
+Petunjuk video ada di videos/CARA-MENAMBAH-VIDEO.txt.

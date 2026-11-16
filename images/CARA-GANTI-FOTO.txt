@@ -1,0 +1,15 @@
+﻿GANTI FOTO WEBSITE RONA RIMBA
+
+Simpan foto dalam folder images yang sama dengan index.html.
+Gunakan nama file berikut (atau ubah nilai image di outputs/script.js):
+- hero-totebag.jpg      Foto utama di bagian atas halaman
+- ranting-senja.jpg     Foto produk Ranting Senja
+- kembang-pagi.jpg      Foto produk Kembang Pagi
+- jejak-pakis.jpg       Foto produk Jejak Pakis
+- mekar-liar.jpg        Foto produk Mekar Liar
+- daun-teduh.jpg        Foto produk Daun Teduh
+- kebun-kecil.jpg       Foto produk Kebun Kecil
+- logo.png              Logo transparan, tampil tetap di kanan atas
+
+Gunakan foto JPG/PNG dengan totebag terlihat jelas. Foto produk akan dipotong memenuhi kotak gambar.
+Jika file belum ada, gambar ilustrasi bawaan tetap muncul untuk produk. Logo memakai tulisan Rona Rimba sebagai pengganti.

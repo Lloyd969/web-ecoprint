@@ -1,0 +1,13 @@
+﻿VIDEO UNTUK HALAMAN MOTIF
+
+Taruh video MP4 di folder geografi/videos dengan nama yang sesuai motif:
+- ranting-senja.mp4
+- kembang-pagi.mp4
+- jejak-pakis.mp4
+- mekar-liar.mp4
+- daun-teduh.mp4
+- kebun-kecil.mp4
+
+Video diputar otomatis tanpa suara dan berulang (loop). Pengunjung dapat menekan tombol putar/jeda.
+Video poster opsional: taruh gambar pratinjau bernama video-poster.jpg di folder images.
+Rasio asli video dipertahankan, dan ukurannya menyesuaikan lebar layar.

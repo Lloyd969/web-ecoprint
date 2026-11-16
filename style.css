@@ -13,7 +13,25 @@ body{background:var(--cream);color:var(--ink)}.site-header{position:relative;z-i
 .floating-logo{width:46px;height:46px;min-width:46px;aspect-ratio:1;padding:4px;border-radius:50%;overflow:hidden;right:max(18px,calc((100vw - 1200px)/2));top:14px}
 .floating-logo img{display:block;width:auto;height:auto;max-width:64px;max-height:64px;object-fit:contain;border-radius:50%}
 .logo-fallback{display:grid;place-items:center;width:100%;height:100%;font:700 20px 'Playfair Display',serif;color:#7cecff}
-@media(max-width:760px){.floating-logo{width:40px;height:40px;min-width:40px;top:10px;right:12px;padding:3px}.logo-fallback{font-size:18px}}
+@media (max-width: 760px) {
+  .floating-logo {
+    width: auto;
+    height: auto;
+    min-width: 0;
+    top: 10px;
+    right: 12px;
+    padding: 5px;
+  }
+
+  .floating-logo img {
+    max-width: 58px;
+    max-height: 58px;
+  }
+
+  .logo-fallback {
+    font-size: 18px;
+  }
+}
 .floating-logo img[hidden]{display:none!important}
 /* Gunakan ukuran dan rasio asli gambar logo di dalam batas maksimum */
 .floating-logo{width:auto;height:auto;min-width:0;aspect-ratio:auto;border-radius:12px}
